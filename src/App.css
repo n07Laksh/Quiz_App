@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.qnaDivChild {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 30%);
+  margin-top: -20px;
+}
+.list-group-item:hover {
+  cursor:pointer;
+  background-color:rgb(247, 242, 242);
+} 
+
+label {
+  font-family: Tahoma, Verdana, sans-serif;
+  display: block;
+  float:left;
+  margin-right:10px;
+}
+.select1 {
+  margin-top: 5px;
+  width:100%;
+  border:1px solid rgb(222, 219, 219);
+  height:35px;
+  border-radius: 20px;
+  padding-left:20px;
+}
+option {
+  opacity: 0.5;
+  -moz-opacity:0.5; 
+  -webkit-opacity:0.5
+}
